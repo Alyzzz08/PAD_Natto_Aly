@@ -1,0 +1,135 @@
+body{
+    background-color:palegreen;
+    height: 100vh;
+}
+.titulo_index {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-shadow: 2px 2px darkblue;
+}
+.card{
+    border: rgb(121, 43, 86) 3px solid;
+    background-color: lightsalmon;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card:hover{
+    width: 20.5%;
+}
+.card:active{
+    background-color: rgb(252, 194, 170);
+}
+.cardmain{
+    border: rgb(121, 43, 86) 3px solid;
+    background-color: lightsalmon;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+    margin: auto;
+}
+.maininfo{
+    margin: 0 15px 15px 15px;
+}
+.carddesc{
+    margin: 40px 15px 15px 15px;
+}
+.cardcent{
+ display:flex;
+}
+
+.nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.descript{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.figure1{
+    width: 25%;
+}
+.figure2{
+    width: 30%;
+}
+.footer_piepagina{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card_titulo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.card_numero{
+    margin: 0 5px 0 0;
+    background-color:saddlebrown;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    color:white;
+    font-family: 'Franklin Gothic';
+}
+.card_numeromain{
+    margin: 0 30px 0 0;
+    background-color:saddlebrown;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Franklin Gothic';
+    padding: 10px;
+}
+.card_tipo1 {
+    background-color: lightcoral;
+    margin: 0 5px 5px 0;
+    width: 100px;
+    height: 15.px;
+    color: white;
+    font-family: 'Franklin Gothic';
+    border-radius: 10px;
+    padding: 5px;
+}
+.card_tipo2 {
+    background-color: lightgreen;
+    margin: 0 5px 5px 0;
+    width: 100px;
+    height: 15.px;
+    color: white;
+    font-family: 'Franklin Gothic';
+    border-radius: 10px;
+    padding: 5px;
+}
+.card_tipo3 {
+    background-color: rgb(235, 189, 129);
+    margin: 0 5px 5px 0;
+    width: 200px;
+    height: 15.px;
+    color: white;
+    font-family: 'Franklin Gothic';
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.card_tipo4 {
+    background-color: rgb(146, 140, 170);
+    margin: 0 5px 5px 0;
+    width: 250px;
+    height: 15.px;
+    color: white;
+    font-family: 'Franklin Gothic';
+    border-radius: 10px;
+    padding: 5px;
+}
+.contenedor_cartas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px 0 50px 0 ;
+}
+.subtitulocard{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkslateblue;
+    font-size: 28px;
+}
